@@ -3,6 +3,7 @@
   "version": "2.1.6",
   "description": "A convenience utility for Amazon DynamoDB Data Types.",
   "main": "./lib/dynamodb-data-types.js",
+  "jsnext:main": "./lib/dynamodb-data-types-es6.js",
   "devDependencies": {
     "async": "0.2.9",
     "aws-sdk": "^2.1.10",
