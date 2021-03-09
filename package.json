@@ -1,6 +1,6 @@
 {
   "name": "@silvercurve/dynamodb-data-types",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "A convenience utility for Amazon DynamoDB Data Types.",
   "main": "./lib/dynamodb-data-types.js",
   "devDependencies": {
