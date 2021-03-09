@@ -42,5 +42,7 @@ jobs:
         git push
     - name: publish package
       run: |
+        echo "registry=https://registry.npmjs.org/" > ./.npmrc
+        echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" >> ./.npmrc
         yarn publish
 
